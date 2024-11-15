@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style type="text/tailwindcss">
+      @layer utilities {
+        .content-auto {
+          content-visibility: auto;
+        }
+      }
+    </style>
+</head>
+<body>
+    <h1 class="text-center text-[black] text-[100px]">post</h1>
+    <div class="flex">
+        <a href="../index.html"><button class="border-[2px] w-[210px] h-[60px] rounded-[50px] bg-[blue] text-white text-[28px] ml-[300px] ">users</button></a>
+        <a href="./todos.html"><button class="border-[2px] w-[210px] h-[60px] rounded-[50px] bg-[red] text-white text-[28px] ml-[30px] ">todos</button></a>
+        <a href="./foto.html"><button class="border-[2px] w-[210px] h-[60px] rounded-[50px] bg-[yellow] text-[black] text-[28px] ml-[30px] ">foto</button></a>
+        <a href="./comments.html"><button class="border-[2px] w-[210px] h-[60px] rounded-[50px] bg-[green] text-white text-[28px] ml-[30px] ">comments</button></a>
+        <a href="#"><button class="border-[2px] w-[210px] h-[60px] rounded-[50px] bg-[black] text-white text-[28px] ml-[30px] ">post</button></a>
+        <a href="./albams.html"><button class="border-[2px] w-[210px] h-[60px] rounded-[50px] bg-[grey] text-white text-[28px] ml-[30px] ">albams</button></a>
+    </div>
+   <div id="postlist" class=" flex flex-wrap w-[1000px] m-auto justify-between gap-[20px] mt-[40px]"></div>
+
+   
+
+    <script src="./post.js"></script>
+</body>
+</html>
