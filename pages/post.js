@@ -1,4 +1,4 @@
-const todoslist =document.querySelector("#postlist")
+const postlist =document.querySelector("#postlist")
 
 fetch("https://jsonplaceholder.typicode.com/posts")
 .then(res => {

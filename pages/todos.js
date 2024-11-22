@@ -19,11 +19,7 @@ fetch("https://jsonplaceholder.typicode.com/todos")
      <li class='text-[yellow] ml-[20px] italic text-[16px]'>completed: ${todo.completed}</li>
 </div>
     
-    
-    
     `;
     todoslist.appendChild(todoDiv);
 });
-console.log(data);
-
 })

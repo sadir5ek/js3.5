@@ -24,6 +24,5 @@ fetch("https://jsonplaceholder.typicode.com/albums")
     `;
     albamslist.appendChild(albamsDiv);
 });
-console.log(data);
 
 })
